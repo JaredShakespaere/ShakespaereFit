@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./homePage.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li class= "navBtn"><a href="./homePage.html">Home Page</a></li>
+            <li class= "navBtn"><a href="./trainLikeAnAthlete.html">Train Like an Athlete</a></li>
+            <li class= "navBtn"><a href="./shop.html">Shop</a></li>
+            <li class= "navBtn"><a href="./blog.html">Blog</a></li>
+        </ol>
+    </nav>
+
+    
+    <section id="assessmentSection">
+        <form id="assessment">
+        Full Name:
+        <input type="text">
+
+        Phone Number:
+        <input type="number">
+
+        Email:
+        <input type="email">
+
+        Goals:
+        <input type="textarea">
+
+        
+        <label for="quantity">How important is it for you to hit your goals on a scale from 1-5?</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+        If you are scheduled, will you be fully present during your call?<br>
+        <input type="radio" id="Yes" name="present" value="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name= "present" value="No">
+        <label for="No">No</label><br>
+
+        Additional information you would like your trainer to know?
+        <input type="textarea">
+
+        <input type="submit">
+        </form>
+    </section>    
+</body>
+</html>
