@@ -16,10 +16,10 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, "../homePage.html"))
 
 })
-app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, "../shop.html"))
+// app.get('/', function(req, res){
+//     res.sendFile(path.join(__dirname, "../shop.html"))
 
-})
+// })
 app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, '../main.css'))
   })
