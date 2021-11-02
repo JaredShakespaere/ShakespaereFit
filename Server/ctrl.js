@@ -1,9 +1,11 @@
 const user = require('./userDb.json')
+const raze = require('./shopDb.json')
 
 let globalIdUser = user[user.length-1].id +1
 
 module.exports = {
     addUser: (req, res) => {
+        console.log('hit')
         const {name, phoneNumber, email, 
             goals, importantToReachGoal, 
             fullyPresent, additionalInfo} = req.body
@@ -12,10 +14,10 @@ module.exports = {
             name,
             phoneNumber, 
             email, 
-            goals: 'fitness goals',
-            importantToReachGoal: Int,
-            fullyPresent: Boolean,
-            additionalInfo: 'String'
+            goals,
+            importantToReachGoal,
+            fullyPresent,
+            additionalInfo,
         } 
 
         user.push(newUser)
@@ -24,5 +26,10 @@ module.exports = {
         res.status(200).send(user)
     },
 
+    getProduct: (req, res) => {
+        res.status(200).send(raze)
+    }
+
     
 };
+

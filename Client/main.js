@@ -1,10 +1,16 @@
-const baseURL = `http:localhost:4400/api/user`
+const { getProduct } = require("../Server/ctrl");
+
+const baseURL = `http://localhost:4400/api/user`
 let form = document.querySelector('form#assessment');
 
 const errCallback = err => console.log(err)
 const dataCallback = data => console.log(data)
+const productCallback = ({ data: raze}) => displayProducts(raze)
+
 
 const createUser = body => axios.post(baseURL, body).then(dataCallback).catch(errCallback)
+const getProduct = () => axios.get('http://localhost:4400/api/shop').then(productCallback).catch(errCallback)
+
 
 form.addEventListener('submit', handleSubmit);
 
@@ -42,7 +48,7 @@ function submitHandler(e) {
     email.value = ''
     goals.value = ''
     importantToReachGoal.value = ''
-    fullyPresent.value = ''
+    fullyPresent.checked = false
     additionalInfo.value = ''
 
     console.log(createUser(bodyObj))
@@ -50,3 +56,13 @@ function submitHandler(e) {
 
 form.addEventListener('submit', submitHandler)
 
+
+
+function createProductCard(raze) {
+    const productCard = document.createElement('div')
+    houseCard.classList.add('product-card')
+
+    productCard.innerHTML = `<p alt= 'product details' >${raze}</p>`
+}
+
+getProduct()

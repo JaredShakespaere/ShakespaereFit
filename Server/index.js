@@ -9,6 +9,7 @@ app.use(cors())
 const ctrl = require('./ctrl')
 
 app.post("/api/user", ctrl.addUser)
+app.get("/api/shop", ctrl.getProduct)
 
 
 const port = 4400
