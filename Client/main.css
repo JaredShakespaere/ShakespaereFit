@@ -23,6 +23,24 @@ nav {
 
 }
 
+/* #discount-code {
+    display: flex;
+    position: absolute;
+    left: 70vw;
+    bottom: 25vh;
+} */
+/* 
+#thought-bubble {
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+}
+
+#thought-text {
+    right: 0;
+    position: absolute;
+} */
+
 #navSection {
     display: flex;
     
@@ -64,11 +82,11 @@ li {
 #assessment {
     overflow-y: scroll;
     border-style: solid;
-    height: 12em;
+    height: 24em;
     width: 10em;
     position: fixed;
     right: 5px;
-    top: 50%;
+    top: 25%;
     margin-top: -2.5em;
     color:gold;
     border-color: black;
@@ -80,11 +98,11 @@ li {
 #assessmentShop {
     overflow-y: scroll;
     border-style: solid;
-    height: 12em;
+    height: 24em;
     width: 10em;
     position: fixed;
     right: 5px;
-    top: 50%;
+    top: 25%;
     margin-top: -2.5em;
     color:gold;
     border-color: black;
@@ -238,6 +256,7 @@ video {
   #repp-sports {
       position: absolute;
       right: 0px;
+      width: 25vw;
       
   }
 
@@ -250,3 +269,69 @@ video {
       position: absolute;
       left: 335px;
   }
+
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    height: 170px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: 25px;
+    bottom: 20px;
+    fill-opacity: .5;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler,;
+    font-size: smaller;
+    color: black;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .price {
+      color: gold;
+  }
+
+  
+
+#textBox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items:center;
+    left: 80px;
+    font-size: 55px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight:400;
+    color:gold;
+  
+
+}
+
+.buy-now {
+    font-family:monospace;
+    font-weight:400;
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    border-radius: 10%;
+   
+}

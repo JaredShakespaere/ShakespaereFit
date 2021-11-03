@@ -12,17 +12,17 @@ const ctrl = require('./ctrl')
 app.post("/api/user", ctrl.addUser)
 app.get("/api/shop", ctrl.getProduct)
 
-app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname, "../homePage.html"))
+// app.get('/', function(req, res){
+//     res.sendFile(path.join(__dirname, "../homePage.html"))
 
-})
+// })
 // app.get('/', function(req, res){
 //     res.sendFile(path.join(__dirname, "../shop.html"))
 
 // })
-app.get('/css', (req, res) => {
-    res.sendFile(path.join(__dirname, '../main.css'))
-  })
+// app.get('/css', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../main.css'))
+//   })
 
 
   const port = process.env.PORT || 4400

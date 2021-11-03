@@ -2,24 +2,28 @@
     {
         "product": "Raze Pre-Workout",
         "description": "RAZE PRE-WORKOUT IS FORMULATED WITH ALL OF THE AMAZING INGREDIENTS FROM OUR RAZE ENERGY DRINK PLUS AN EXTRA BOOST SO YOU CAN TAKE YOUR WORKOUTS TO THE NEXT LEVEL.",
+        "price": 44.99,
         "id": 1
     },
 
     {
         "product": "Raze Energy Drink 12ct",
         "description": "12 PACK-HYDRATING ENERGY-RAPID RESTORATIVE RECOVERY-INTENSIFIED STAMINA-RAZOR SHARP MENTAL FOCUS-NO CRASH AT ALL!-ZERO SUGAR†",
+        "price": 29.99,
         "id": 2
     },
 
     {
         "product": "Broken Arrow Elite Pre-Workout",
         "description": "BROKEN ARROW™ DRAWS FROM THE POWER OF CUTTING EDGE INGREDIENTS TO DELIVER AN EXPLOSIVE WORKOUT EXPERIENCE.",
+        "price": 47.99,
         "id": 3
     },
 
     {
         "product": "Recov-7 Intra-Workout Recovery",
         "description": "RECOV-7 IS A REVOLUTIONARY COMPLETE RECOVERY PRODUCT FEATURING 7 KEY ELEMENTS SHOWN TO AID IN RECOVERY, HYDRATION, AND FOCUS.",
+        "price": 37.99,
         "id": 4
     },
 
