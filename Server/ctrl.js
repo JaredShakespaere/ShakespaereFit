@@ -26,9 +26,7 @@ module.exports = {
         res.status(200).send(user)
     },
 
-    getProduct: (req, res) => {
-        res.status(200).send(raze)
-    }
+    
 
     
 };

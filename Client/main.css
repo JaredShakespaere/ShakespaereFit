@@ -4,7 +4,6 @@ body {
     z-index: 0;
     margin: 0;
     padding: 0;
-    /* height:fit-content; */
 }
 
 
@@ -17,29 +16,7 @@ nav {
     position:sticky;
     font-family: 'Bowlby One SC';
     font-size: 20px;
-    /* margin-bottom: -40px;
-    margin-top: -150px; */
-    /* z-index: -20; */
-
 }
-
-/* #discount-code {
-    display: flex;
-    position: absolute;
-    left: 70vw;
-    bottom: 25vh;
-} */
-/* 
-#thought-bubble {
-    width: 13vw;
-    height: 13vw;
-    position: absolute;
-}
-
-#thought-text {
-    right: 0;
-    position: absolute;
-} */
 
 #navSection {
     display: flex;
@@ -64,20 +41,7 @@ li {
       
 }
 
-/* li:hover {
-    color: red;
-    cursor: crosshair;
-    transform: scale(1.10, 1.10);
-    border-radius: 20%;
-    box-shadow: 0 0 10px black;
-  } */
 
-/* #assessmentSection {
-    display: flex;
-    width: 720px;
-    height: 1024px;
-    align-items: center;
-} */
 
 #assessment {
     overflow-y: scroll;
@@ -156,33 +120,27 @@ h2 {
     border: 0px;
     z-index: -5;
     position: absolute;
-    /* padding-top: -50px; */
-   
-
-    
 }
 
 .navBtn {
-display:inline-block;
-padding:0.7em 1.7em;
-margin:0 0.3em 0.3em 0;
-border-radius:0.2em;
-box-sizing: border-box;
-text-decoration:none;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-font-weight:400;
-color:#464e47;
-background-color:gold;
-text-align:center;
-position:relative;
-
+    display:inline-block;
+    padding:0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight:400;
+    color:#464e47;
+    background-color:gold;
+    text-align:center;
+    position:relative;
 }
 
 #formTitle {
     text-align: center;
     justify-self: center;
-    color: #FFD700;
-    
+    color: #FFD700;  
 }
 
 video {
@@ -194,11 +152,7 @@ video {
     margin: auto;
     padding-left: 403.85px;
     padding-right: 403.85px;
-    padding-top: 150px;
-    
-    
-
-    
+    padding-top: 150px;  
 }
 
 #logo {
@@ -209,7 +163,6 @@ video {
     border-color: grey;
     position: relative;
     border-radius: 5%;
-
 }
 
 
@@ -218,11 +171,11 @@ video {
     height: 100vh;
   }
   
-  #content-wrap {
+#content-wrap {
     padding-bottom: 2.5rem;   
   }
   
-  #footer {
+#footer {
     margin-top: 93vh;
     bottom: 0;
     width: 200px;
@@ -232,13 +185,13 @@ video {
     float:center
   }
 
-  #shop-body {
-      background-color: honeydew;
+#shop-body {
+    background-color: honeydew;
   }
 
-  .navBtnShop {
-      padding-left: 200px;
-      display:inline-block;
+.navBtnShop {
+    padding-left: 200px;
+    display:inline-block;
     padding:0.7em 1.7em;
     margin:0 0.3em 0.3em 0;
     border-radius:0.2em;
@@ -253,32 +206,32 @@ video {
     text-align: center;
   }
 
-  #repp-sports {
-      position: absolute;
-      right: 0px;
-      width: 25vw;
+#repp-sports {
+    position: absolute;
+    right: 0px;
+    width: 25vw;
       
   }
 
-  .table-pic {
-      height: 200px;
-      width: 200px;
+.table-pic {
+    height: 200px;
+    width: 200px;
   }
 
-  #table {
-      position: absolute;
-      left: 335px;
+#table {
+    position: absolute;
+    left: 335px;
   }
 
 
 
-  .tooltip {
+.tooltip {
     position: relative;
     display: inline-block;
     
   }
 
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 150px;
     height: 170px;
@@ -298,11 +251,11 @@ video {
     color: black;
   }
 
-  .tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext {
     visibility: visible;
   }
 
-  .price {
+.price {
       color: gold;
   }
 

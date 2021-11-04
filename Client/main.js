@@ -5,11 +5,9 @@ let form = document.querySelector('form#assessment');
 
 const errCallback = err => console.log(err)
 const dataCallback = data => console.log(data)
-const productCallback = ({ data: raze}) => displayProducts(raze)
 
 
 const createUser = body => axios.post(baseURL, body).then(dataCallback).catch(errCallback)
-const getProduct = () => axios.get('http://localhost:4400/api/shop').then(productCallback).catch(errCallback)
 
 
 form.addEventListener('submit', handleSubmit);
@@ -17,7 +15,7 @@ form.addEventListener('submit', handleSubmit);
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	alert('Form submitted!');
+	alert('Your trainer will contact you!');
 }
 
 function submitHandler(e) {
@@ -58,11 +56,3 @@ form.addEventListener('submit', submitHandler)
 
 
 
-function createProductCard(raze) {
-    const productCard = document.createElement('div')
-    houseCard.classList.add('product-card')
-
-    productCard.innerHTML = `<p alt= 'product details' >${raze}</p>`
-}
-
-getProduct()
